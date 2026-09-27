@@ -1,0 +1,57 @@
+# Installed dependencies
+node_modules/
+.pnp.*
+
+# Generated output (reference/_next is required vendored input, not build output)
+dist/
+build/
+out/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Caches and temporary files
+.cache/
+.parcel-cache/
+.turbo/
+.npm/
+.sites-runtime/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.temp
+*.bak
+*.blend1
+*.zip
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+.npmrc
+.netrc
+.git-credentials
+.codex/
+.agents/
+
+# Editor/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Two unsuccessful source-discovery downloads (HTML rather than assets)
+lowkey-clone/reference/_next/static/chunks/25.1dbd591b2cc73574.js
+lowkey-clone/reference/_next/static/css/%23n

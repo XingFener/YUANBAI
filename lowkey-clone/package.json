@@ -1,0 +1,9 @@
+{
+  "name": "lowkey-local-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local reproduction of the LOWKEY archive and open-case interaction",
+  "scripts": { "build": "node scripts/build.mjs", "dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs" },
+  "engines": { "node": ">=18" }
+}

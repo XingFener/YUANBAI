@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "echo No dependencies to install",
+  "buildCommand": "cd lowkey-clone && node scripts/build.mjs",
+  "outputDirectory": "lowkey-clone/dist"
+}
