@@ -9,87 +9,87 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
   const SCENES = [
     {
       id: "phoenix-courtyard", number: "01", name: "凤凰树中庭", english: "PHOENIX COURTYARD", color: "#F26E4F",
-      atmosphere: "从潮湿的土壤开始，沿着向上的砖与树影辨认中庭。", hubBackground: "/images/hub/door-01/background.jpg",
-      background: "/archive/sensory/01-phoenix/scene-01.png", doorImage: "/images/hub/door-01/door.png", revealImage: "/archive/sensory/01-phoenix/scene-05.png",
-      backgrounds: ["/archive/sensory/01-phoenix/scene-01.png", "/archive/sensory/01-phoenix/scene-02.png", "/archive/sensory/01-phoenix/scene-03.png", "/archive/sensory/01-phoenix/scene-04.png"],
+      atmosphere: "从潮湿的土壤开始，沿着向上的砖与树影辨认中庭。", hubBackground: "/images/hub/door-01/background.webp",
+      background: "/archive/sensory/01-phoenix/scene-01.webp", doorImage: "/images/hub/door-01/door.webp", revealImage: "/archive/sensory/01-phoenix/scene-05.webp",
+      backgrounds: ["/archive/sensory/01-phoenix/scene-01.webp", "/archive/sensory/01-phoenix/scene-02.webp", "/archive/sensory/01-phoenix/scene-03.webp", "/archive/sensory/01-phoenix/scene-04.webp"],
       hotspots: [
-        { x: 49, y: 88, sense: "触觉、嗅觉", object: "砖台阶", visual: "steps", image: "/archive/sensory/01-phoenix/object-steps.png", actionZh: "你摸索着踏上红砖台阶。", actionEn: "You feel your way up the red brick steps.", detail: "你摸索着蹲下，掌心在砖面轻轻摩擦，粗糙的颗粒感像按在砂纸上，有些硌手。指尖传来阳光晒过的余温。凑近深吸一口气，干燥的土腥气有点重，像一只刚出窑的陶罐。", text: "掌心摩擦粗糙的砖面，像按在砂纸上，带着点晒过的余温。" },
-        { x: 49, y: 65, sense: "触觉、嗅觉", object: "脚下的泥土", visual: "soil", image: "/archive/sensory/01-phoenix/object-soil.png", actionZh: "你停下，鞋底轻碾脚下的泥土。", actionEn: "You stop, grinding the soil lightly underfoot.", detail: "你停下脚步，鞋底轻碾，泥土在脚下碎裂，松软中带着阻力，像压碎了一块干燥的饼干。你蹲下身凑近，一股干涩的土味钻进鼻腔，混着草根的微苦，有点像吹开窗台上积攒的灰尘。", text: "泥土在鞋底碎裂像压碎干饼干。蹲下凑近，干涩土腥味混着草根微苦，像吹开窗台上的灰尘。" },
-        { x: 49, y: 39, sense: "触觉、嗅觉", object: "树", visual: "tree", image: "/archive/sensory/01-phoenix/object-tree.png", actionZh: "你摸索着向前，掌心贴上树干。", actionEn: "You feel your way forward, palms pressing against the trunk.", detail: "你摸索着向前，掌心贴上树干。树皮粗糙干硬，指尖划过一道道深深的裂纹，像摸在老木屋的门框上。凑近深吸一口气，没有花叶的香味，只有淡淡的木质气息，像凑近闻一块角落里风干的老木板。", text: "掌心贴紧树干，树皮粗糙干硬，像摸在老木屋的门框上。凑近深吸，只有淡淡的干木料气息，像风干的老木板。" }
+        { x: 49, y: 88, sense: "触觉、嗅觉", object: "砖台阶", visual: "steps", image: "/archive/sensory/01-phoenix/object-steps.webp", actionZh: "你摸索着踏上红砖台阶。", actionEn: "You feel your way up the red brick steps.", detail: "你摸索着蹲下，掌心在砖面轻轻摩擦，粗糙的颗粒感像按在砂纸上，有些硌手。指尖传来阳光晒过的余温。凑近深吸一口气，干燥的土腥气有点重，像一只刚出窑的陶罐。", text: "掌心摩擦粗糙的砖面，像按在砂纸上，带着点晒过的余温。" },
+        { x: 49, y: 65, sense: "触觉、嗅觉", object: "脚下的泥土", visual: "soil", image: "/archive/sensory/01-phoenix/object-soil.webp", actionZh: "你停下，鞋底轻碾脚下的泥土。", actionEn: "You stop, grinding the soil lightly underfoot.", detail: "你停下脚步，鞋底轻碾，泥土在脚下碎裂，松软中带着阻力，像压碎了一块干燥的饼干。你蹲下身凑近，一股干涩的土味钻进鼻腔，混着草根的微苦，有点像吹开窗台上积攒的灰尘。", text: "泥土在鞋底碎裂像压碎干饼干。蹲下凑近，干涩土腥味混着草根微苦，像吹开窗台上的灰尘。" },
+        { x: 49, y: 39, sense: "触觉、嗅觉", object: "树", visual: "tree", image: "/archive/sensory/01-phoenix/object-tree.webp", actionZh: "你摸索着向前，掌心贴上树干。", actionEn: "You feel your way forward, palms pressing against the trunk.", detail: "你摸索着向前，掌心贴上树干。树皮粗糙干硬，指尖划过一道道深深的裂纹，像摸在老木屋的门框上。凑近深吸一口气，没有花叶的香味，只有淡淡的木质气息，像凑近闻一块角落里风干的老木板。", text: "掌心贴紧树干，树皮粗糙干硬，像摸在老木屋的门框上。凑近深吸，只有淡淡的干木料气息，像风干的老木板。" }
       ]
     },
     {
       id: "seminar-room", number: "02", name: "B1-101 研讨室", english: "SEMINAR ROOM", color: "#6D7AB9",
-      atmosphere: "金属、木面与被反复使用的痕迹，共同勾勒一间讨论空间。", hubBackground: "/images/hub/door-02/background.jpg",
-      background: "/archive/sensory/02-seminar/scene-01.png", doorImage: "/images/hub/door-02/door.png", revealImage: "/archive/sensory/02-seminar/scene-05.png",
-      backgrounds: ["/archive/sensory/02-seminar/scene-01.png", "/archive/sensory/02-seminar/scene-02.png", "/archive/sensory/02-seminar/scene-03.png", "/archive/sensory/02-seminar/scene-04.png"],
+      atmosphere: "金属、木面与被反复使用的痕迹，共同勾勒一间讨论空间。", hubBackground: "/images/hub/door-02/background.webp",
+      background: "/archive/sensory/02-seminar/scene-01.webp", doorImage: "/images/hub/door-02/door.webp", revealImage: "/archive/sensory/02-seminar/scene-05.webp",
+      backgrounds: ["/archive/sensory/02-seminar/scene-01.webp", "/archive/sensory/02-seminar/scene-02.webp", "/archive/sensory/02-seminar/scene-03.webp", "/archive/sensory/02-seminar/scene-04.webp"],
       hotspots: [
-        { x: 26, y: 70, sense: "触觉", object: "桌子", visual: "table", image: "/archive/sensory/02-seminar/object-table.png", actionZh: "你拉开椅子，指尖划过桌面。", actionEn: "You pull out a chair, fingertips tracing the tabletop.", detail: "你拉开椅子，指尖划过桌面。木纹平滑且带着微微的凉意。你屈起指节轻叩桌面，闷闷的“咚咚”声顺着指骨震上来，微微发麻，像在敲击一块厚实的砧板。", text: "木纹平滑微凉，轻叩桌面，“咚咚”声顺着指骨震上来，有点发麻，像在敲击一块厚砧板。" },
-        { x: 12, y: 45, sense: "触觉、嗅觉", object: "置物架", visual: "shelf", image: "/archive/sensory/02-seminar/object-shelf.png", actionZh: "你走近置物架，握住铁杆。", actionEn: "You approach the rack, gripping an iron rod.", detail: "你走近置物架，握住铁杆。金属的坚硬与冰凉瞬间传递掌心，指尖来回滑动，能摸到细微的焊点。侧头凑近轻嗅，有一股淡淡的铁锈味，有点像捏在手里很久的硬币。", text: "金属坚硬冰凉，指尖滑过有细微焊点。凑近轻嗅，有股淡淡铁锈味，有点像硬币的味道。" },
-        { x: 77, y: 57, sense: "触觉、嗅觉", object: "软木板、图钉", visual: "board", image: "/archive/sensory/02-seminar/object-board.png", actionZh: "黑暗中，你摸到图钉，按进软木板里。", actionEn: "In the dark, you feel for a pushpin and press it into the corkboard.", detail: "黑暗中，你摸到图钉，按进软木板里。针尖刺进去有微小的阻力，像扎进一块厚纸板。拔出来时带下细碎的软木屑，凑近闻，像刚削完铅笔的味道。", text: "针尖刺进去有微小阻力，像扎进厚纸板。拔出来带下细碎木屑，凑近闻，像刚削完铅笔的味道。" }
+        { x: 26, y: 70, sense: "触觉", object: "桌子", visual: "table", image: "/archive/sensory/02-seminar/object-table.webp", actionZh: "你拉开椅子，指尖划过桌面。", actionEn: "You pull out a chair, fingertips tracing the tabletop.", detail: "你拉开椅子，指尖划过桌面。木纹平滑且带着微微的凉意。你屈起指节轻叩桌面，闷闷的“咚咚”声顺着指骨震上来，微微发麻，像在敲击一块厚实的砧板。", text: "木纹平滑微凉，轻叩桌面，“咚咚”声顺着指骨震上来，有点发麻，像在敲击一块厚砧板。" },
+        { x: 12, y: 45, sense: "触觉、嗅觉", object: "置物架", visual: "shelf", image: "/archive/sensory/02-seminar/object-shelf.webp", actionZh: "你走近置物架，握住铁杆。", actionEn: "You approach the rack, gripping an iron rod.", detail: "你走近置物架，握住铁杆。金属的坚硬与冰凉瞬间传递掌心，指尖来回滑动，能摸到细微的焊点。侧头凑近轻嗅，有一股淡淡的铁锈味，有点像捏在手里很久的硬币。", text: "金属坚硬冰凉，指尖滑过有细微焊点。凑近轻嗅，有股淡淡铁锈味，有点像硬币的味道。" },
+        { x: 77, y: 57, sense: "触觉、嗅觉", object: "软木板、图钉", visual: "board", image: "/archive/sensory/02-seminar/object-board.webp", actionZh: "黑暗中，你摸到图钉，按进软木板里。", actionEn: "In the dark, you feel for a pushpin and press it into the corkboard.", detail: "黑暗中，你摸到图钉，按进软木板里。针尖刺进去有微小的阻力，像扎进一块厚纸板。拔出来时带下细碎的软木屑，凑近闻，像刚削完铅笔的味道。", text: "针尖刺进去有微小阻力，像扎进厚纸板。拔出来带下细碎木屑，凑近闻，像刚削完铅笔的味道。" }
       ]
     },
     {
       id: "gallery", number: "03", name: "美术馆", english: "GALLERY", color: "#70D2D5",
-      atmosphere: "声音先于图像抵达；翻页与沙粒让白色展厅获得边界。", hubBackground: "/images/hub/door-03/background.jpg",
-      background: "/archive/sensory/03-gallery/scene-01.png", doorImage: "/images/hub/door-03/door.png", revealImage: "/archive/sensory/03-gallery/scene-05.png",
-      backgrounds: ["/archive/sensory/03-gallery/scene-01.png", "/archive/sensory/03-gallery/scene-02.png", "/archive/sensory/03-gallery/scene-03.png", "/archive/sensory/03-gallery/scene-04.png"],
+      atmosphere: "声音先于图像抵达；翻页与沙粒让白色展厅获得边界。", hubBackground: "/images/hub/door-03/background.webp",
+      background: "/archive/sensory/03-gallery/scene-01.webp", doorImage: "/images/hub/door-03/door.webp", revealImage: "/archive/sensory/03-gallery/scene-05.webp",
+      backgrounds: ["/archive/sensory/03-gallery/scene-01.webp", "/archive/sensory/03-gallery/scene-02.webp", "/archive/sensory/03-gallery/scene-03.webp", "/archive/sensory/03-gallery/scene-04.webp"],
       hotspots: [
-        { x: 23, y: 56, sense: "听觉", object: "美术馆的音乐", visual: "music", image: "/archive/sensory/03-gallery/object-music.png", audio: true, audioSrc: "/audio/gallery.mp3", actionZh: "黑暗中，你停下脚步，侧耳倾听。", actionEn: "In the darkness, you stop intently.", detail: "黑暗中，你停下脚步侧耳倾听。古典乐的旋律在空旷的展厅里来回碰撞，像水滴落进很深的井里，传上来一圈一圈的回音。声音很慢，包裹着整个空间。", text: "旋律在空旷展厅里来回碰撞，像水滴落进很深的井里，传上来一圈一圈的回音。" },
-        { x: 86, y: 79, sense: "触觉、嗅觉", object: "地面的沙", visual: "sand", image: "/archive/sensory/03-gallery/object-sand.png", actionZh: "你踩在展区细沙上。", actionEn: "You step on the fine sand of the exhibition area.", detail: "你踩在展区细沙上。脚底传来轻微的沉降与柔软阻力，像踩在海边退潮后的沙滩上。深呼吸，干燥的沙土气息直钻鼻孔，能闻到细细的尘埃味。", text: "脚底轻微沉降，像踩在退潮的沙滩。深呼吸，干燥沙土气息直钻鼻孔，能闻到细细的尘埃味。" },
-        { x: 76, y: 48, sense: "触觉、嗅觉", object: "书页", visual: "paper", image: "/archive/sensory/03-gallery/object-paper.png", actionZh: "你摸索着，翻开一本书。", actionEn: "You feel your way and open a book.", detail: "你摸索着翻开一本书。指尖摩挲着纸页，有点粗糙，翻动时沙沙作响，像捻过干燥的落叶。凑近深吸一口气，淡淡的墨香混着纸浆味，像把脸埋进了干燥的碎木屑里。", text: "指尖摩挲纸页沙沙响，像捻过干燥落叶。深吸一口气，淡淡墨香混着纸浆味，像埋进干木屑里。" }
+        { x: 23, y: 56, sense: "听觉", object: "美术馆的音乐", visual: "music", image: "/archive/sensory/03-gallery/object-music.webp", audio: true, audioSrc: "/audio/gallery.mp3", actionZh: "黑暗中，你停下脚步，侧耳倾听。", actionEn: "In the darkness, you stop intently.", detail: "黑暗中，你停下脚步侧耳倾听。古典乐的旋律在空旷的展厅里来回碰撞，像水滴落进很深的井里，传上来一圈一圈的回音。声音很慢，包裹着整个空间。", text: "旋律在空旷展厅里来回碰撞，像水滴落进很深的井里，传上来一圈一圈的回音。" },
+        { x: 86, y: 79, sense: "触觉、嗅觉", object: "地面的沙", visual: "sand", image: "/archive/sensory/03-gallery/object-sand.webp", actionZh: "你踩在展区细沙上。", actionEn: "You step on the fine sand of the exhibition area.", detail: "你踩在展区细沙上。脚底传来轻微的沉降与柔软阻力，像踩在海边退潮后的沙滩上。深呼吸，干燥的沙土气息直钻鼻孔，能闻到细细的尘埃味。", text: "脚底轻微沉降，像踩在退潮的沙滩。深呼吸，干燥沙土气息直钻鼻孔，能闻到细细的尘埃味。" },
+        { x: 76, y: 48, sense: "触觉、嗅觉", object: "书页", visual: "paper", image: "/archive/sensory/03-gallery/object-paper.webp", actionZh: "你摸索着，翻开一本书。", actionEn: "You feel your way and open a book.", detail: "你摸索着翻开一本书。指尖摩挲着纸页，有点粗糙，翻动时沙沙作响，像捻过干燥的落叶。凑近深吸一口气，淡淡的墨香混着纸浆味，像把脸埋进了干燥的碎木屑里。", text: "指尖摩挲纸页沙沙响，像捻过干燥落叶。深吸一口气，淡淡墨香混着纸浆味，像埋进干木屑里。" }
       ]
     },
     {
       id: "activity-room", number: "04", name: "B1-501 活动室", english: "ACTIVITY ROOM", color: "#F58C73",
-      atmosphere: "屏幕的冷光、织物的下陷与花的气味，拼出有人停留的房间。", hubBackground: "/images/hub/door-04/background.jpg",
-      background: "/archive/sensory/04-activity/scene-01.png", doorImage: "/images/hub/door-04/door.png", revealImage: "/archive/sensory/04-activity/scene-05.png",
-      backgrounds: ["/archive/sensory/04-activity/scene-01.png", "/archive/sensory/04-activity/scene-02.png", "/archive/sensory/04-activity/scene-03.png", "/archive/sensory/04-activity/scene-04.png"],
+      atmosphere: "屏幕的冷光、织物的下陷与花的气味，拼出有人停留的房间。", hubBackground: "/images/hub/door-04/background.webp",
+      background: "/archive/sensory/04-activity/scene-01.webp", doorImage: "/images/hub/door-04/door.webp", revealImage: "/archive/sensory/04-activity/scene-05.webp",
+      backgrounds: ["/archive/sensory/04-activity/scene-01.webp", "/archive/sensory/04-activity/scene-02.webp", "/archive/sensory/04-activity/scene-03.webp", "/archive/sensory/04-activity/scene-04.webp"],
       hotspots: [
-        { x: 22, y: 51, sense: "触觉", object: "智慧屏", visual: "screen", image: "/archive/sensory/04-activity/object-screen.png", actionZh: "你摸索着，触碰到智慧屏的边缘。", actionEn: "You feel your way and touch the edge of the smart screen.", detail: "你摸索着触碰到智慧屏的边缘。指尖顺着边缘滑过，玻璃表面光滑平整，带着微凉与坚硬，安静地立在那里，没有任何温度与震颤。", text: "指尖顺边缘滑过，玻璃表面光滑平整，带着微凉与坚硬，安静地立在那里。" },
-        { x: 58, y: 77, sense: "触觉", object: "布沙发", visual: "sofa", image: "/archive/sensory/04-activity/object-sofa.png", actionZh: "你摸索着坐下，碰到布沙发。", actionEn: "You feel your way and sit down, touching the fabric sofa.", detail: "你摸索着坐下，碰到布沙发。手指划过粗粝的棉麻，触感像摸在干爽的毛巾上。身体一沉，像陷进了一团松软的棉花里，整个后背被稳稳包裹住。", text: "手指划过粗粝棉麻，触感像摸在干爽毛巾上。身体一沉，像陷进了一团松软的棉花里。" },
-        { x: 90, y: 46, sense: "触觉、嗅觉", object: "植物", visual: "plant", image: "/archive/sensory/04-activity/object-plant.png", actionZh: "你伸手摸索到绿植，指尖轻拂叶片。", actionEn: "You reach out to the green plant, gently brushing the leaves.", detail: "你伸手摸索到绿植，指尖轻拂叶片。叶面光滑且带着微凉，摸起来像柔软的丝绸。稍一凑近，清新的淡香就钻进了鼻腔，有点像刚切开的苹果。", text: "叶片光滑微凉，摸起来像柔软丝绸。稍一凑近，清新的淡香钻进鼻腔，有点像刚切开的苹果味。" }
+        { x: 22, y: 51, sense: "触觉", object: "智慧屏", visual: "screen", image: "/archive/sensory/04-activity/object-screen.webp", actionZh: "你摸索着，触碰到智慧屏的边缘。", actionEn: "You feel your way and touch the edge of the smart screen.", detail: "你摸索着触碰到智慧屏的边缘。指尖顺着边缘滑过，玻璃表面光滑平整，带着微凉与坚硬，安静地立在那里，没有任何温度与震颤。", text: "指尖顺边缘滑过，玻璃表面光滑平整，带着微凉与坚硬，安静地立在那里。" },
+        { x: 58, y: 77, sense: "触觉", object: "布沙发", visual: "sofa", image: "/archive/sensory/04-activity/object-sofa.webp", actionZh: "你摸索着坐下，碰到布沙发。", actionEn: "You feel your way and sit down, touching the fabric sofa.", detail: "你摸索着坐下，碰到布沙发。手指划过粗粝的棉麻，触感像摸在干爽的毛巾上。身体一沉，像陷进了一团松软的棉花里，整个后背被稳稳包裹住。", text: "手指划过粗粝棉麻，触感像摸在干爽毛巾上。身体一沉，像陷进了一团松软的棉花里。" },
+        { x: 90, y: 46, sense: "触觉、嗅觉", object: "植物", visual: "plant", image: "/archive/sensory/04-activity/object-plant.webp", actionZh: "你伸手摸索到绿植，指尖轻拂叶片。", actionEn: "You reach out to the green plant, gently brushing the leaves.", detail: "你伸手摸索到绿植，指尖轻拂叶片。叶面光滑且带着微凉，摸起来像柔软的丝绸。稍一凑近，清新的淡香就钻进了鼻腔，有点像刚切开的苹果。", text: "叶片光滑微凉，摸起来像柔软丝绸。稍一凑近，清新的淡香钻进鼻腔，有点像刚切开的苹果味。" }
       ]
     },
     {
       id: "outdoor-platform", number: "05", name: "户外平台", english: "OUTDOOR PLATFORM", color: "#FBBE9A",
-      atmosphere: "远处施工与近处材料的触感，把平台连接到更大的城市。", hubBackground: "/images/hub/door-05/background.jpg",
-      background: "/archive/sensory/05-platform/scene-01.png", doorImage: "/images/hub/door-05/door.png", revealImage: "/archive/sensory/05-platform/scene-05.png",
-      backgrounds: ["/archive/sensory/05-platform/scene-01.png", "/archive/sensory/05-platform/scene-02.png", "/archive/sensory/05-platform/scene-03.png", "/archive/sensory/05-platform/scene-04.png"],
+      atmosphere: "远处施工与近处材料的触感，把平台连接到更大的城市。", hubBackground: "/images/hub/door-05/background.webp",
+      background: "/archive/sensory/05-platform/scene-01.webp", doorImage: "/images/hub/door-05/door.webp", revealImage: "/archive/sensory/05-platform/scene-05.webp",
+      backgrounds: ["/archive/sensory/05-platform/scene-01.webp", "/archive/sensory/05-platform/scene-02.webp", "/archive/sensory/05-platform/scene-03.webp", "/archive/sensory/05-platform/scene-04.webp"],
       hotspots: [
-        { x: 72, y: 53, sense: "听觉", object: "远处施工的声音", visual: "city", image: "/archive/sensory/05-platform/object-city.png", audio: true, audioSrc: "/audio/construction.mp3", audioVolume: .32, actionZh: "视野被蒙蔽，你停下脚步，侧耳倾听。", actionEn: "Blinded, you stop and listen intently.", detail: "视野被蒙蔽，你停下脚步侧耳倾听。远处的敲击声和机器轰鸣断断续续传来。眼睛看不见时，这声音变得格外真切，一下下撞击着耳膜。", text: "远处的敲击和机器轰鸣断断续续。眼睛看不见时，这声音变得格外真切，一下下撞击着耳膜。" },
-        { x: 38, y: 85, sense: "触觉", object: "木地板", visual: "wood", image: "/archive/sensory/05-platform/object-wood.png", actionZh: "你低头蹲下身，触摸木地板。", actionEn: "You crouch down, touching the wooden floor.", detail: "你低头蹲下身，触摸木地板。阳光烘烤的温热与凹凸的木纹在指腹清晰可辨，摸起来像一块晒暖的旧切菜板，凹凸不平，带着风吹日晒的痕迹。", text: "阳光烘烤的温热与凹凸木纹在指腹清晰可辨，摸起来像一块晒暖的旧切菜板。" },
-        { x: 72, y: 51, sense: "触觉", object: "金属围栏", visual: "rail", image: "/archive/sensory/05-platform/object-rail.png", actionZh: "你双手握住白色金属围栏。", actionEn: "You grip the white metal railing with both hands.", detail: "你双手握住白色金属围栏。阳光直射下金属微烫，掌心贴上去能感觉到热度，摸起来像暖气片一样温热，手心微微出汗，质感坚硬而平滑。", text: "阳光直射下金属微烫，掌心贴上去能感觉到热度，摸起来像暖气片一样温热。" }
+        { x: 72, y: 53, sense: "听觉", object: "远处施工的声音", visual: "city", image: "/archive/sensory/05-platform/object-city.webp", audio: true, audioSrc: "/audio/construction.mp3", audioVolume: .32, actionZh: "视野被蒙蔽，你停下脚步，侧耳倾听。", actionEn: "Blinded, you stop and listen intently.", detail: "视野被蒙蔽，你停下脚步侧耳倾听。远处的敲击声和机器轰鸣断断续续传来。眼睛看不见时，这声音变得格外真切，一下下撞击着耳膜。", text: "远处的敲击和机器轰鸣断断续续。眼睛看不见时，这声音变得格外真切，一下下撞击着耳膜。" },
+        { x: 38, y: 85, sense: "触觉", object: "木地板", visual: "wood", image: "/archive/sensory/05-platform/object-wood.webp", actionZh: "你低头蹲下身，触摸木地板。", actionEn: "You crouch down, touching the wooden floor.", detail: "你低头蹲下身，触摸木地板。阳光烘烤的温热与凹凸的木纹在指腹清晰可辨，摸起来像一块晒暖的旧切菜板，凹凸不平，带着风吹日晒的痕迹。", text: "阳光烘烤的温热与凹凸木纹在指腹清晰可辨，摸起来像一块晒暖的旧切菜板。" },
+        { x: 72, y: 51, sense: "触觉", object: "金属围栏", visual: "rail", image: "/archive/sensory/05-platform/object-rail.webp", actionZh: "你双手握住白色金属围栏。", actionEn: "You grip the white metal railing with both hands.", detail: "你双手握住白色金属围栏。阳光直射下金属微烫，掌心贴上去能感觉到热度，摸起来像暖气片一样温热，手心微微出汗，质感坚硬而平滑。", text: "阳光直射下金属微烫，掌心贴上去能感觉到热度，摸起来像暖气片一样温热。" }
       ]
     },
     {
       id: "round-courtyard", number: "06", name: "圆形中庭", english: "ROUND COURTYARD", color: "#8D955D",
       atmosphere: "植物、下沉台阶与圆台，共同确认一个向心的空间。",
-      hubBackground: "/images/hub/door-06/background.png",
-      background: "/archive/sensory/06-courtyard/scene-01.png",
-      doorImage: "/images/hub/door-06/door.png",
-      revealImage: "/archive/sensory/06-courtyard/scene-05.png",
+      hubBackground: "/images/hub/door-06/background.webp",
+      background: "/archive/sensory/06-courtyard/scene-01.webp",
+      doorImage: "/images/hub/door-06/door.webp",
+      revealImage: "/archive/sensory/06-courtyard/scene-05.webp",
       backgrounds: [
-        "/archive/sensory/06-courtyard/scene-01.png",
-        "/archive/sensory/06-courtyard/scene-02.png",
-        "/archive/sensory/06-courtyard/scene-03.png",
-        "/archive/sensory/06-courtyard/scene-04.png"
+        "/archive/sensory/06-courtyard/scene-01.webp",
+        "/archive/sensory/06-courtyard/scene-02.webp",
+        "/archive/sensory/06-courtyard/scene-03.webp",
+        "/archive/sensory/06-courtyard/scene-04.webp"
       ],
       hotspots: [
         {
-          x: 80, y: 70, sense: "触觉、嗅觉", object: "植物", visual: "plant", image: "/archive/sensory/06-courtyard/object-plant.png",
+          x: 80, y: 70, sense: "触觉、嗅觉", object: "植物", visual: "plant", image: "/archive/sensory/06-courtyard/object-plant.webp",
           actionZh: "你俯身拨开带土的丛生花草。", actionEn: "You bend down, parting the clumps of soil-covered flowers.",
           detail: "你蹲下身，指尖靠近中庭边缘的绿植。叶片边缘的细微绒毛轻轻扎着你的指腹，触感微痒。伴随触碰，青草香气混合着泥土的湿气涌上鼻腔，像刚修剪完草坪。",
           text: "指尖拂过叶片绒毛，微痒触感中，青草香气混合泥土湿气涌上鼻腔。"
         },
         {
-          x: 50, y: 76, sense: "触觉、听觉", object: "砖台阶", visual: "downsteps", image: "/archive/sensory/06-courtyard/object-steps.png",
+          x: 50, y: 76, sense: "触觉、听觉", object: "砖台阶", visual: "downsteps", image: "/archive/sensory/06-courtyard/object-steps.webp",
           actionZh: "你扶墙而下，走向下沉广场。", actionEn: "You descend along the wall toward the sunken plaza.",
           detail: "你扶墙而下，走向下沉广场。掌心划过粗糙的砖块，像摸在没打磨过的砂纸上。鞋底踩在台阶上的“嗒嗒”声在墙壁间弹来弹去，像有人在远处敲空盒子。",
           text: "掌心划过粗糙砖块，鞋底“嗒嗒”声在墙壁间弹来弹去，像有人在敲空盒子。"
         },
         {
-          x: 50, y: 70, sense: "触觉、听觉", object: "圆台", visual: "circle", image: "/archive/sensory/06-courtyard/object-platform.png",
+          x: 50, y: 70, sense: "触觉、听觉", object: "圆台", visual: "circle", image: "/archive/sensory/06-courtyard/object-platform.webp",
           actionZh: "你走到最底部，盘腿坐上圆台。", actionEn: "You reach the bottom, sitting cross-legged on the round platform.",
           detail: "你走到最底部，盘腿坐上圆台。掌心平贴红砖，阳光烘烤的余温传遍全身，像摸在刚断电的电热毯上。周围很静谧，只能听到自己呼吸的起伏声。",
           text: "掌心平贴红砖，阳光余温传遍全身，像摸在刚断电的电热毯上。周围很静，只听到自己的呼吸。"
@@ -108,6 +108,40 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
   /* The immersive dream exploration is now the default production experience.
      Keep ?style=classic as a comparison route for the previous visual treatment. */
   const dreamMode = query.get("style") !== "classic";
+
+  const imagePreloads = new Map();
+  function preloadImage(src, priority = "low") {
+    if (!src) return Promise.resolve();
+    if (imagePreloads.has(src)) return imagePreloads.get(src);
+    const image = new Image();
+    image.decoding = "async";
+    image.fetchPriority = priority;
+    const pending = new Promise(resolve => {
+      image.addEventListener("load", resolve, { once: true });
+      image.addEventListener("error", resolve, { once: true });
+    });
+    imagePreloads.set(src, pending);
+    image.src = src;
+    return pending;
+  }
+
+  function preloadImagesWhenIdle(sources, timeout = 1800) {
+    const queue = [...new Set(sources.filter(Boolean))];
+    let cancelled = false;
+    const run = async () => {
+      for (const src of queue) {
+        if (cancelled) break;
+        await preloadImage(src);
+      }
+    };
+    const idle = typeof requestIdleCallback === "function";
+    const handle = idle ? requestIdleCallback(run, { timeout }) : setTimeout(run, Math.min(timeout, 700));
+    return () => {
+      cancelled = true;
+      if (idle) cancelIdleCallback(handle);
+      else clearTimeout(handle);
+    };
+  }
 
   function fadeAudio(track, duration = 650, pauseAtEnd = true) {
     if (!track) return;
@@ -198,7 +232,7 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
       h("div", { className: "launch-vignette", "aria-hidden": true }),
       h("div", { className: "launch-copy" },
         h("div", { className: "launch-brand", "aria-label": "∞ · 元白" },
-          h("img", { src: "/images/yuanbai-infinity.png", alt: "∞" }),
+          h("img", { src: "/images/yuanbai-infinity.webp", alt: "∞", loading: "lazy", decoding: "async" }),
           h("span", null, "·"),
           h("strong", null, "元白")
         ),
@@ -273,6 +307,7 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
       frame = requestAnimationFrame(tick);
       return () => { cancelAnimationFrame(frame); clearTimeout(fallbackTimer.current); };
     }, [preview]);
+    React.useEffect(() => preloadImagesWhenIdle(["/images/yuanbai-launch.webp"], 1400), []);
     return h("section", { className: "opening " + (dream ? "dream-mode" : ""), onClick: onDone },
       h("div", { className: "opening-video", "aria-hidden": true },
         h("video", { ref: videoRef, autoPlay: true, muted: true, loop: preview, playsInline: true, preload: "auto",
@@ -350,6 +385,17 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
     const [active, setActive] = React.useState(0);
     const [activePhysical, setActivePhysical] = React.useState(SCENES.length);
     const [openingId, setOpeningId] = React.useState(null);
+    const [loadedBackgrounds, setLoadedBackgrounds] = React.useState(() => new Set([0]));
+    React.useEffect(() => {
+      const neighbors = [(active + 1) % SCENES.length, (active + SCENES.length - 1) % SCENES.length];
+      const cancel = preloadImagesWhenIdle(neighbors.map(index => SCENES[index].hubBackground), 1200);
+      setLoadedBackgrounds(previous => {
+        const next = new Set(previous);
+        next.add(active);
+        return next;
+      });
+      return cancel;
+    }, [active]);
     const updateActive = React.useCallback(() => {
       const node = rail.current;
       if (!node) return;
@@ -439,7 +485,7 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
     const useArchiveDoors = doorStyle === "archive";
     return h("main", { className: "hub " + (useArchiveDoors ? "doors-archive " : "") + (dream ? "dream-mode " : "") + (arriving ? "is-arriving " : "") + (openingId ? "is-opening" : ""), style: { "--selected-accent": SCENES[active].color } },
       h("div", { className: "hub-scene-backgrounds", "aria-hidden": true },
-        SCENES.map((scene, index) => h("div", { key: scene.id, className: "hub-scene-background " + (active === index ? "is-active" : ""), style: { backgroundImage: "url(" + scene.hubBackground + ")" } }))
+        SCENES.map((scene, index) => h("div", { key: scene.id, className: "hub-scene-background " + (active === index ? "is-active" : ""), style: loadedBackgrounds.has(index) || active === index ? { backgroundImage: "url(" + scene.hubBackground + ")" } : null }))
       ),
       h("div", { className: "hub-particles", "aria-hidden": true }, Array.from({ length: 28 }, (_, index) => {
         const distance = 58 + (index % 6) * 3;
@@ -592,6 +638,11 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
       const timer = setTimeout(() => { setEntering(false); setPhase("searching"); }, dream ? 1850 : 800);
       return () => { clearTimeout(timer); timers.current.forEach(clearTimeout); timers.current = []; };
     }, []);
+    React.useEffect(() => preloadImagesWhenIdle([
+      scene.backgrounds?.[Math.min(step + 1, scene.backgrounds.length - 1)],
+      scene.hotspots[step]?.image,
+      step === scene.hotspots.length - 1 ? scene.revealImage : null
+    ], 1500), [scene.id, step]);
     const hotspot = scene.hotspots[step];
     const revealed = step;
     const activateHotspot = () => {
@@ -683,7 +734,7 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
     return h("main", { className: "ending" },
       h("div", { className: "ending-background", "aria-hidden": true }),
       h("div", { className: "ending-brand", "aria-label": "∞ · 元白" },
-        h("img", { src: "/images/yuanbai-infinity.png", alt: "∞" }), h("span", null, "·"), h("strong", null, "元白")
+        h("img", { src: "/images/yuanbai-infinity.webp", alt: "∞", loading: "lazy", decoding: "async" }), h("span", null, "·"), h("strong", null, "元白")
       ),
       h("section", { className: "ending-copy" },
         h("p", null, "Finding the Unknown Within the Familiar"),
@@ -708,7 +759,7 @@ self.webpackChunk_N_E.push([["lowkey-local-entry"], {}, function (require) {
     React.useEffect(() => {
       nature.current = new Audio("/audio/nature.mp3");
       classroom.current = new Audio("/audio/classroom.mp3");
-      [nature.current, classroom.current].forEach(track => { track.loop = true; track.preload = "auto"; });
+      [nature.current, classroom.current].forEach(track => { track.loop = true; track.preload = "none"; });
       nature.current.volume = 0;
       classroom.current.volume = 0;
       const start = () => overallAmbience.play();

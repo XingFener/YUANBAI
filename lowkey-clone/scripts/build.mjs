@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, cp, readdir, stat } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, cp, readdir, stat, rm } from 'node:fs/promises';
 import { resolve, dirname, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
@@ -6,8 +6,25 @@ import { Script } from 'node:vm';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const out = resolve(root, 'dist');
+await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
-for (const directory of ['archive', 'audio', 'fonts', 'images', 'models', 'narrative', 'vendor', 'video']) await cp(resolve(root, 'reference', directory), resolve(out, directory), { recursive: true });
+async function copyRuntimeDirectory(directory) {
+  const source = resolve(root, 'reference', directory);
+  const destination = resolve(out, directory);
+  await cp(source, destination, {
+    recursive: true,
+    filter: async entry => {
+      if (!/\.(png|jpe?g)$/i.test(entry)) return true;
+      try {
+        await stat(entry.replace(/\.(png|jpe?g)$/i, '.webp'));
+        return false;
+      } catch {
+        return true;
+      }
+    }
+  });
+}
+for (const directory of ['archive', 'audio', 'fonts', 'images', 'models', 'narrative', 'vendor', 'video']) await copyRuntimeDirectory(directory);
 await cp(resolve(root, 'reference/icon.svg'), resolve(out, 'icon.svg'));
 const chunks = [
   'webpack-c9f21c55e09af00f.js', 'fd9d1056-c9e6a99e9106578d.js', '117-92e45f4c5c252751.js',
